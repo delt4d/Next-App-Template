@@ -1,3 +1,52 @@
 {
-  "extends": "next/core-web-vitals"
+    "env": {
+        "browser": true,
+        "es2020": true,
+        "jest": true,
+        "node": true
+    },
+    "settings": {
+        "react": {
+            "version": "detect"
+        }
+    },
+    "extends": [
+        "next/core-web-vitals",
+        "eslint:recommended",
+        "plugin:@typescript-eslint/recommended",
+        "plugin:@typescript-eslint/recommended-requiring-type-checking",
+        "plugin:import/recommended",
+        "plugin:prettier/recommended",
+        "prettier"
+    ],
+    "parser": "@typescript-eslint/parser",
+    "parserOptions": {
+        "ecmaVersion": 11,
+        "sourceType": "module",
+        "project": "./tsconfig.json"
+    },
+    "plugins": [
+        "prettier",
+        "import",
+        "simple-import-sort",
+        "@typescript-eslint"
+    ],
+    "ignorePatterns": ["*.js"],
+    "rules": {
+        "prettier/prettier": "error",
+        "simple-import-sort/imports": "warn",
+        "no-irregular-whitespace": "error",
+        "no-unused-vars": "warn",
+        "no-array-constructor": "error",
+        "no-class-assign": "error",
+        "getter-return": "error",
+        "global-require": "warn",
+        "no-await-in-loop": "error",
+        "no-compare-neg-zero": "error",
+        "no-const-assign": "error",
+        "no-dupe-class-members": "error",
+        "no-duplicate-imports": "error",
+        "no-dupe-args": "error",
+        "no-dupe-keys": "error"
+    }
 }
