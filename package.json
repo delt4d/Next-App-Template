@@ -1,6 +1,6 @@
 {
   "name": "app",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "next lint",
     "prepare": "husky install",
-    "commit": "cz"
+    "commit": "cz",
+    "release": "standard-version --no-verify"
   },
   "dependencies": {
     "next": "14.0.1",
@@ -27,6 +28,7 @@
     "eslint-config-next": "14.0.1",
     "husky": "^8.0.3",
     "postcss": "^8",
+    "standard-version": "^9.5.0",
     "tailwindcss": "^3.3.0",
     "typescript": "^5"
   },
