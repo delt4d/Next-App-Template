@@ -4,10 +4,9 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### [0.1.3](https://github.com/delt4d/NextApp/compare/v0.1.2...v0.1.3) (2023-11-08)
 
-
 ### 🚚 Chores
 
-* **package:** configure prettier and eslint ([cabf955](https://github.com/delt4d/NextApp/commit/cabf9555cf362eb709bdf87e951a541bde015ac5))
+-   **package:** configure prettier and eslint ([cabf955](https://github.com/delt4d/NextApp/commit/cabf9555cf362eb709bdf87e951a541bde015ac5))
 
 ### [0.1.2](https://github.com/delt4d/NextApp/compare/v0.1.1...v0.1.2) (2023-11-08)
 
