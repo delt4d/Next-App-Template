@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "next lint",
     "prepare": "husky install",
-    "commit": "git add . && cz",
+    "git:commit": "git add . && cz",
+    "git:push": "git push --follow-tags origin",
     "release": "standard-version --no-verify"
   },
   "dependencies": {
