@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Main /> should match snapshot 1`] = `
+<div
+  class="h-screen"
+>
+  <main
+    class="undefined flex items-center justify-center"
+  >
+    <h1
+      class="title mb-2"
+    >
+      Next App
+    </h1>
+  </main>
+</div>
+`;
