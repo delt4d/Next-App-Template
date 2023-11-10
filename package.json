@@ -7,7 +7,7 @@
         "build": "next build",
         "start": "next start",
         "lint": "next lint --fix --max-warnings=0 && prettier --write .",
-        "test": "jest",
+        "test": "jest --passWithNoTests",
         "test:watch": "npm run test -- --watch",
         "prepare": "husky install",
         "git:commit": "cz",

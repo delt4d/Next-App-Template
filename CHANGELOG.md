@@ -4,16 +4,14 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### [0.1.4](https://github.com/delt4d/NextApp/compare/v0.1.3...v0.1.4) (2023-11-08)
 
-
 ### 🚚 Chores
 
-* **pre-commit:** invert commands to do git add before npm run lint ([ba28fa8](https://github.com/delt4d/NextApp/commit/ba28fa8e3615221833e66310fb2e6dbea1b26d6c))
-* **readme:** nothing ([b5971b6](https://github.com/delt4d/NextApp/commit/b5971b6b11a8cf040abd85da53cab9a802023b87))
-
+-   **pre-commit:** invert commands to do git add before npm run lint ([ba28fa8](https://github.com/delt4d/NextApp/commit/ba28fa8e3615221833e66310fb2e6dbea1b26d6c))
+-   **readme:** nothing ([b5971b6](https://github.com/delt4d/NextApp/commit/b5971b6b11a8cf040abd85da53cab9a802023b87))
 
 ### 📝 Documentation
 
-* **readme:** remove three dots ([7b78b8f](https://github.com/delt4d/NextApp/commit/7b78b8fb79247ceb4644154ef6c4cca993e7cbf8))
+-   **readme:** remove three dots ([7b78b8f](https://github.com/delt4d/NextApp/commit/7b78b8fb79247ceb4644154ef6c4cca993e7cbf8))
 
 ### [0.1.3](https://github.com/delt4d/NextApp/compare/v0.1.2...v0.1.3) (2023-11-08)
 

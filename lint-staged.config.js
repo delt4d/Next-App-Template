@@ -1,9 +1,9 @@
 module.exports = {
-    'app/**/*.(ts|tsx)': () => 'npx tsc --noEmit',
-    'app/**/*.(ts|tsx|js)': (filenames) => {
+    '**/*.(ts|tsx|js)': (filenames) => {
         return [
+            'npx tsc --noEmit',
             'npm run lint',
             `npm run test -- --bail --findRelatedTests ${filenames.join(' ')}`,
-        ];
+        ]
     },
-};
+}
