@@ -2,6 +2,31 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.5](https://github.com/delt4d/NextApp/compare/v0.1.4...v0.1.5) (2023-11-10)
+
+
+### 🐛 Bug Fixes
+
+* **husky:** correct lint-staged configuration ([c655223](https://github.com/delt4d/NextApp/commit/c655223b7c6084da56c103249d17c8f59f79939a))
+
+
+### ✨ Features
+
+* **app:** implement main component ([032e5c3](https://github.com/delt4d/NextApp/commit/032e5c3aa2bef600d9d3a39d98d2395e3a909422))
+
+
+### ✅ Testing
+
+* add test to main component ([ab3cdaf](https://github.com/delt4d/NextApp/commit/ab3cdafc56730a4397c421dbc438a0dcf005f151))
+* **vscode tasks.json:** run test on open ([b4cb8fa](https://github.com/delt4d/NextApp/commit/b4cb8fada1af6634c35691452313ff191f3f8b80))
+
+
+### 🚚 Chores
+
+* **lint-staged.config.js:** test before lint ([d0e1e2e](https://github.com/delt4d/NextApp/commit/d0e1e2e348bdff2743389e28152aa42f74919328))
+* **package:** add lint-staged and configure jest ([2bf5019](https://github.com/delt4d/NextApp/commit/2bf50190d30a6a4c1e46cfc8dd6345d8940b6ce0))
+* update configurations ([11f84c8](https://github.com/delt4d/NextApp/commit/11f84c8b1e6775940a7e4225377e40d527f097b2))
+
 ### [0.1.4](https://github.com/delt4d/NextApp/compare/v0.1.3...v0.1.4) (2023-11-08)
 
 ### 🚚 Chores
